@@ -10,51 +10,912 @@ Ang, Alfredo H-S., and Wilson H. Tang. _Probability Concepts in Engineering: Emp
 
 The following table provides information about the lecture (L) and recitation (R) sessions, and also shows when each of the [lecture notes]({{< baseurl >}}/pages/lecture-notes) and [application examples]({{< baseurl >}}/pages/application-examples) are presented.
 
-| SES # | LECTURE TOPICS | TEXTBOOK READINGS | NOTES | EXAMPLES | KEY DATES |
-| --- | --- | --- | --- | --- | --- |
-| {{< td-colspan 6 >}}**Events, their probability, and two important theorems**{{< /td-colspan >}} ||||||
-| L1 | Introduction. Events and their properties | 27-43 | &nbsp; |
-| L2 | Probability of events. Conditional probability, total probability theorem | 44-63 | &nbsp; | 1 | &nbsp; |
-| L3 | Independence, Bayes' theorem | 63-65 | 1 | 2, 3, and 4 | Homework 1 out |
-| R1 | Total probability and Bayes' theorems | &nbsp; |
-| {{< td-colspan 6 >}}**Random variables**{{< /td-colspan >}} ||||||
-| L4 | Discrete random variables. Bernoulli and geometric distributions | 81-88 and 105-111 | &nbsp; | 5 | &nbsp; |
-| L5 | Binomial and Poisson distributions | 112-118 | 2 | 6 |  {{< br >}}{{< br >}} Homework 1 due {{< br >}}{{< br >}} Homework 2 out {{< br >}}{{< br >}}  |
-| R2 | Discrete random variables | &nbsp; |
-| L6 | Continuous random variables. Uniform and exponential distributions | 118-122 | &nbsp; |
-| L7 | Hazard function, distributions of mixed type and distribution mixtures | &nbsp; | 3 | 7 and 8 |  {{< br >}}{{< br >}} Homework 2 due {{< br >}}{{< br >}} Homework 3 out {{< br >}}{{< br >}}  |
-| R3 | Continuous random variables, and hazard function | &nbsp; | Quiz 1 |
-| {{< td-colspan 6 >}}**Random vectors**{{< /td-colspan >}} ||||||
-| L8 | Discrete random vectors | &nbsp; |
-| L9 | Continuous random vectors | 131-136 | 4 | 9 |  {{< br >}}{{< br >}} Homework 3 due {{< br >}}{{< br >}} Homework 4 out {{< br >}}{{< br >}}  |
-| R4 | Random vectors | &nbsp; |
-| {{< td-colspan 6 >}}**Uncertainty propagation**{{< /td-colspan >}} ||||||
-| L10 | Functions of random variables; linear functions | 151-156 | &nbsp; |
-| L11 | Functions of random variables and vectors; monotonic and min/max functions | 157-160 and 172-174 | &nbsp; | 10, 11, and 12 |  {{< br >}}{{< br >}} Homework 4 due {{< br >}}{{< br >}} Homework 5 out {{< br >}}{{< br >}}  |
-| R5 | Functions of random variables | &nbsp; | Quiz 2 |
-| L12 | Functions of random vectors: sums of variables, gamma distribution | 122-125 | 5 | &nbsp; |
-| {{< td-colspan 6 >}}**Second moment analysis**{{< /td-colspan >}} ||||||
-| L13 | Expectation, second moment characterization of random variables, probabilistic moments | 88-93 | &nbsp; | Homework 5 due |
-| R6 | Functions of random variables and vectors | &nbsp; |
-| L14 | Second moment (SM) and first order second moment (FOSM) propagation of uncertainty for variables | 180-186 | &nbsp; | Homework 6 out |
-| L15 | Second moment characterization of random vectors; covariance and correlation coefficient | 138-140 | &nbsp; |
-| R7 | Probabilistic moments, SM and FOSM propagation of uncertainty for variables | &nbsp; | Quiz 3 |
-| L16 | SM and FOSM propagation of uncertainty for random vectors | 186-189 | &nbsp; | Homework 6 due |
-| L17 | SM and FOSM propagation of uncertainty for random vectors | &nbsp; | 6 | 13 and 14 | Homework 7 out |
-| R8 | Variance, covariance, correlation, SM and FOSM propagation of uncertainty for random vectors | &nbsp; |
-| {{< td-colspan 6 >}}**Conditional second moment analysis**{{< /td-colspan >}} ||||||
-| L18 | Conditional SM analysis for variables | &nbsp; |
-| L19 | Conditional SM analysis for vectors | &nbsp; | 7 | 15 and 16 |  {{< br >}}{{< br >}} Homework 7 due {{< br >}}{{< br >}} Homework 8 out {{< br >}}{{< br >}}  |
-| R9 | Conditional SM analysis for variables | &nbsp; | Quiz 4 |
-| {{< td-colspan 6 >}}**Important distribution models**{{< /td-colspan >}} ||||||
-| L20 | Normal and lognormal distributions | 96-105 | &nbsp; |  {{< br >}}{{< br >}} Homework 8 due {{< br >}}{{< br >}} Homework 9 out {{< br >}}{{< br >}}  |
-| R10 | Conditional SM analysis. Important distribution models | &nbsp; |
-| L21 | Beta, extreme, and multivariate normal distributions | 127-131, 137, and 175-179 | 8 | 17 and 18 | &nbsp; |
-| {{< td-colspan 6 >}}**Statistics**{{< /td-colspan >}} ||||||
-| L22 | Estimation of distribution parameters: general principles | &nbsp; | Homework 9 due |
-| R11 | Estimation of distribution parameters | &nbsp; | Quiz 5 |
-| L23 | Method of moments | 246-251 | &nbsp; | Homework 10 out |
-| L24 | Maximum likelihood and Bayesian estimation | 251-254 and 346-357 | 9 | 19 | Homework 10 due |
-| L25 | Simple and multiple linear regression | 306-309, 313-318, and 321-325 | &nbsp; |
-| R12 | Maximum likelihood and Bayesian estimation | &nbsp; |
-| L26 | Pre-final review | &nbsp; |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+LECTURE TOPICS
+{{< thclose >}}
+{{< thopen >}}
+TEXTBOOK READINGS
+{{< thclose >}}
+{{< thopen >}}
+NOTES
+{{< thclose >}}
+{{< thopen >}}
+EXAMPLES
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="6" >}}
+**Events, their probability, and two important theorems**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction. Events and their properties
+{{< tdclose >}}
+{{< tdopen >}}
+27-43
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+Probability of events. Conditional probability, total probability theorem
+{{< tdclose >}}
+{{< tdopen >}}
+44-63
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+Independence, Bayes' theorem
+{{< tdclose >}}
+{{< tdopen >}}
+63-65
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+2, 3, and 4
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R1
+{{< tdclose >}}
+{{< tdopen >}}
+Total probability and Bayes' theorems
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="6" >}}
+**Random variables**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete random variables. Bernoulli and geometric distributions
+{{< tdclose >}}
+{{< tdopen >}}
+81-88 and 105-111
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+Binomial and Poisson distributions
+{{< tdclose >}}
+{{< tdopen >}}
+112-118
+{{< tdclose >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 1 due
+
+Homework 2 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R2
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete random variables
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+Continuous random variables. Uniform and exponential distributions
+{{< tdclose >}}
+{{< tdopen >}}
+118-122
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+Hazard function, distributions of mixed type and distribution mixtures
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+7 and 8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 2 due
+
+Homework 3 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R3
+{{< tdclose >}}
+{{< tdopen >}}
+Continuous random variables, and hazard function
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="6" >}}
+**Random vectors**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete random vectors
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+Continuous random vectors
+{{< tdclose >}}
+{{< tdopen >}}
+131-136
+{{< tdclose >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 3 due
+
+Homework 4 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R4
+{{< tdclose >}}
+{{< tdopen >}}
+Random vectors
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="6" >}}
+**Uncertainty propagation**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+Functions of random variables; linear functions
+{{< tdclose >}}
+{{< tdopen >}}
+151-156
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+Functions of random variables and vectors; monotonic and min/max functions
+{{< tdclose >}}
+{{< tdopen >}}
+157-160 and 172-174
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+10, 11, and 12
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 4 due
+
+Homework 5 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R5
+{{< tdclose >}}
+{{< tdopen >}}
+Functions of random variables
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+Functions of random vectors: sums of variables, gamma distribution
+{{< tdclose >}}
+{{< tdopen >}}
+122-125
+{{< tdclose >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="6" >}}
+**Second moment analysis**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+Expectation, second moment characterization of random variables, probabilistic moments
+{{< tdclose >}}
+{{< tdopen >}}
+88-93
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 5 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R6
+{{< tdclose >}}
+{{< tdopen >}}
+Functions of random variables and vectors
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+Second moment (SM) and first order second moment (FOSM) propagation of uncertainty for variables
+{{< tdclose >}}
+{{< tdopen >}}
+180-186
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 6 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+Second moment characterization of random vectors; covariance and correlation coefficient
+{{< tdclose >}}
+{{< tdopen >}}
+138-140
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R7
+{{< tdclose >}}
+{{< tdopen >}}
+Probabilistic moments, SM and FOSM propagation of uncertainty for variables
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+SM and FOSM propagation of uncertainty for random vectors
+{{< tdclose >}}
+{{< tdopen >}}
+186-189
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 6 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+SM and FOSM propagation of uncertainty for random vectors
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+13 and 14
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 7 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R8
+{{< tdclose >}}
+{{< tdopen >}}
+Variance, covariance, correlation, SM and FOSM propagation of uncertainty for random vectors
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="6" >}}
+**Conditional second moment analysis**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+Conditional SM analysis for variables
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L19
+{{< tdclose >}}
+{{< tdopen >}}
+Conditional SM analysis for vectors
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+15 and 16
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 7 due
+
+Homework 8 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R9
+{{< tdclose >}}
+{{< tdopen >}}
+Conditional SM analysis for variables
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="6" >}}
+**Important distribution models**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L20
+{{< tdclose >}}
+{{< tdopen >}}
+Normal and lognormal distributions
+{{< tdclose >}}
+{{< tdopen >}}
+96-105
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 8 due
+
+Homework 9 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R10
+{{< tdclose >}}
+{{< tdopen >}}
+Conditional SM analysis. Important distribution models
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L21
+{{< tdclose >}}
+{{< tdopen >}}
+Beta, extreme, and multivariate normal distributions
+{{< tdclose >}}
+{{< tdopen >}}
+127-131, 137, and 175-179
+{{< tdclose >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+17 and 18
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="6" >}}
+**Statistics**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L22
+{{< tdclose >}}
+{{< tdopen >}}
+Estimation of distribution parameters: general principles
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 9 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R11
+{{< tdclose >}}
+{{< tdopen >}}
+Estimation of distribution parameters
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L23
+{{< tdclose >}}
+{{< tdopen >}}
+Method of moments
+{{< tdclose >}}
+{{< tdopen >}}
+246-251
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 10 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L24
+{{< tdclose >}}
+{{< tdopen >}}
+Maximum likelihood and Bayesian estimation
+{{< tdclose >}}
+{{< tdopen >}}
+251-254 and 346-357
+{{< tdclose >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 10 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L25
+{{< tdclose >}}
+{{< tdopen >}}
+Simple and multiple linear regression
+{{< tdclose >}}
+{{< tdopen >}}
+306-309, 313-318, and 321-325
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R12
+{{< tdclose >}}
+{{< tdopen >}}
+Maximum likelihood and Bayesian estimation
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L26
+{{< tdclose >}}
+{{< tdopen >}}
+Pre-final review
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
