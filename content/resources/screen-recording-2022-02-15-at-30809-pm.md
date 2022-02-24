@@ -14,10 +14,10 @@ title: Screen Recording 2022-02-15 at 3.08.09 PM.mov
 uid: 7156adf2-136c-40a5-a242-eee09ddbef5c
 video_files:
   video_captions_file: ''
-  video_thumbnail_file: ''
+  video_thumbnail_file: https://img.youtube.com/vi/Lq_oxIpeWBc/default.jpg
   video_transcript_file: ''
 video_metadata:
   video_speakers: ''
   video_tags: ''
-  youtube_id: ''
+  youtube_id: Lq_oxIpeWBc
 ---
