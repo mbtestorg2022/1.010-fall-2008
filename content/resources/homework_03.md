@@ -3,6 +3,7 @@ content_type: resource
 description: Homework assignment on uncertainty in engineering.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/1-010-uncertainty-in-engineering-fall-2008/b72e316b363219f54fb0270c86984343_homework_03.pdf
 file_type: application/pdf
+parent_uid: 1dd7ff79-7e94-b15b-1d9f-4dab4f77e3db
 resourcetype: Document
 title: 'Homework Set #3'
 uid: b72e316b-3632-19f5-4fb0-270c86984343
