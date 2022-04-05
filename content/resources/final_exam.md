@@ -3,6 +3,11 @@ content_type: resource
 description: Final exam on uncertainty in engineering.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/1-010-uncertainty-in-engineering-fall-2008/6317b853229962e88034e6eae0030c7b_final_exam.pdf
 file_type: application/pdf
+learning_resource_types:
+- Exams
+ocw_type: OCWFile
+parent_title: Exams
+parent_type: CourseSection
 parent_uid: 6dd5bf01-6cfb-58fd-3a5f-5a7e1d329b1e
 resourcetype: Document
 title: Final Exam

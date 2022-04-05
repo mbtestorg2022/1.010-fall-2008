@@ -4,6 +4,10 @@ description: Lecture notes on conditional second moment analysis with vectors an
   prediction of daily temperatures using several past observations.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/1-010-uncertainty-in-engineering-fall-2008/7a14fddb8bd2ed123205fdf3bfdfd5eb_app_16.pdf
 file_type: application/pdf
+learning_resource_types: []
+ocw_type: OCWFile
+parent_title: Application Examples
+parent_type: CourseSection
 parent_uid: 71fd70ed-185c-332b-74e6-4e459fe7b890
 resourcetype: Document
 title: Conditional Second Moment Analysis with Vectors

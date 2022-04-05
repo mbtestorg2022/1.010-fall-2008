@@ -4,6 +4,10 @@ description: Lecture notes on Bernoulli trial sequence and dependence in binary 
   series.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/1-010-uncertainty-in-engineering-fall-2008/8fc155598a75eb24c68b462423fbfc49_app_05.pdf
 file_type: application/pdf
+learning_resource_types: []
+ocw_type: OCWFile
+parent_title: Application Examples
+parent_type: CourseSection
 parent_uid: 71fd70ed-185c-332b-74e6-4e459fe7b890
 resourcetype: Document
 title: Bernoulli Trial Sequence and Dependence in Binary Time Series

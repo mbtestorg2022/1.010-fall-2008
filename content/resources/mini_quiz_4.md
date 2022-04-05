@@ -3,6 +3,11 @@ content_type: resource
 description: Quiz on uncertainty in engineering.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/1-010-uncertainty-in-engineering-fall-2008/da2151843b9df9c1972deab0499662f6_mini_quiz_4.pdf
 file_type: application/pdf
+learning_resource_types:
+- Exams
+ocw_type: OCWFile
+parent_title: Exams
+parent_type: CourseSection
 parent_uid: 6dd5bf01-6cfb-58fd-3a5f-5a7e1d329b1e
 resourcetype: Document
 title: 'Mini-Quiz #4'

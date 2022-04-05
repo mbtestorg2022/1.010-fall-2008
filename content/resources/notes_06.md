@@ -5,6 +5,11 @@ description: Lecture notes on second-moment characterization of random variables
   of uncertainty.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/1-010-uncertainty-in-engineering-fall-2008/c984d7981d383c8d7d8d9f62917cb61c_notes_06.pdf
 file_type: application/pdf
+learning_resource_types:
+- Lecture Notes
+ocw_type: OCWFile
+parent_title: Lecture Notes
+parent_type: CourseSection
 parent_uid: 4d9a32f6-7c88-7687-01c3-60592f53f310
 resourcetype: Document
 title: 'Brief Notes #6'
